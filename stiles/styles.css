@@ -1,0 +1,448 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-size: large;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Disable horizontal scrollbar */
+}
+
+h1 {
+  font-size: 100px;
+}
+
+p {
+  font-size: 100px;
+  color: blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#section1 {
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  background-image: url("../img/section_1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-attachment: fixed;
+}
+#section1 p {
+  color: white;
+}
+#section1 .principal {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 20px; /* Add margin for spacing */
+  color: white;
+}
+
+#section2 {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section2 .foto {
+  background-image: url("../img/boda_1.jpg");
+  height: 300px;
+  width: 90%;
+  background-position: center;
+  background-size: cover;
+}
+
+#padres {
+  height: 80vh;
+  background-image: url("../img/background11.png");
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-attachment: fixed;
+}
+
+#cuenta-atras {
+  height: 50vh;
+  background-image: url("../img/imagen2.jpg");
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-attachment: fixed;
+}
+#cuenta-atras h2 {
+  font-size: 20px;
+}
+#cuenta-atras #countdown {
+  text-align: center;
+  padding: 40px;
+  background-color: #ffffff; /* Set a white background color for the container */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+#cuenta-atras .countdown-item {
+  margin: 0 10px;
+}
+
+.backgroun {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 20px; /* Add margin for spacing */
+  color: white;
+}
+
+#ceremonia {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+#ceremonia h1 {
+  font-size: 18px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+#codigo-vestimenta {
+  height: 60vh;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-attachment: fixed;
+}
+#codigo-vestimenta h1 {
+  color: black;
+}
+#codigo-vestimenta .dressContainer {
+  margin-bottom: 20px;
+}
+
+#programa {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-attachment: fixed;
+  /* Responsive grid */
+}
+#programa .event-section {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  margin: 10px;
+}
+#programa .event-section img {
+  max-width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+#programa .event-title {
+  font-size: 1.5em;
+}
+#programa .event-subtitle {
+  font-size: 1em;
+  color: #555;
+}
+@media (max-width: 767px) {
+  #programa .event-section {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 20px;
+  }
+  .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 40px;
+    color: white;
+  }
+  p {
+    font-size: 18px;
+    color: gray;
+  }
+  #section1 {
+    height: 100vh;
+  }
+  #section1 .principal {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 20px; /* Add margin for spacing */
+    color: white;
+  }
+  #section1 .principal .enLinea {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #section1 .principal .enLinea .section {
+    font-size: 25px;
+    flex: 1;
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+  }
+  #section1 .principal .enLinea .section:not(:last-child) {
+    margin-right: 10px;
+  }
+  #section1 .principal h1 {
+    font-size: 40px;
+  }
+  #section2 {
+    height: 800px;
+  }
+  #section2 img {
+    padding: 10px;
+  }
+  #padres {
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: blue;
+    color: black;
+  }
+  #cuenta-atras {
+    height: 500px;
+  }
+  #cuenta-atras #countdown {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 80%;
+    height: 130px;
+    border-radius: none;
+  }
+  #ceremonia {
+    height: 600px;
+  }
+  #carouselExampleFade {
+    height: 250px;
+    border: 2px black;
+  }
+  #carouselExampleFade button {
+    color: black;
+  }
+  #carouselExampleFade .padrinos {
+    height: 250px;
+    background-color: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #carouselExampleFade .padrinos h1 {
+    color: black;
+    font-size: 30px;
+  }
+  #codigo-vestimenta {
+    height: 700px;
+    margin: 10px;
+    width: auto;
+    border: 3px solid #e6e6e6; /* Set a light border color */
+    border-radius: 30px; /* Add rounded corners for an elegant look */
+    padding: 30px;
+    background-color: #ffffff; /* Set a white background color inside the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #carouselExampleFade {
+    margin: 10px;
+  }
+  #programa {
+    height: 1200px;
+  }
+  #programa .event-section img {
+    max-width: 80%;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+}
+/* Media query for medium screens (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  #section1 {
+    height: 700px;
+    background-color: black;
+    background-image: url("../img/background2.jpg");
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-attachment: fixed;
+  }
+  #section1 p {
+    color: white;
+  }
+  #section1 .principal {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 20px; /* Add margin for spacing */
+    color: white;
+  }
+  #section2 {
+    height: 1000px;
+  }
+  #padres {
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  #cuenta-atras {
+    height: 500px;
+  }
+  #cuenta-atras #countdown {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 80%;
+    height: 30%;
+  }
+  #ceremonia {
+    height: 1000px;
+  }
+  #codigo-vestimenta {
+    height: 700px;
+  }
+  #programa {
+    height: 1400px;
+  }
+  #programa .event-section img {
+    max-width: 80%;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+}
+/* Media query for large screens (769px and above) */
+@media (min-width: 769px) {
+  body {
+    font-size: 17px;
+  }
+  #section1 {
+    height: 80vh;
+    background-color: black;
+    background-image: url("../img/imagen3.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-attachment: fixed;
+  }
+  #section1 p {
+    color: white;
+  }
+  #section1 .principal {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 20px; /* Add margin for spacing */
+    color: white;
+  }
+  .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  #section1 {
+    height: 700px;
+  }
+  #section2 {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #section2 .foto {
+    background-image: url("../img/boda_1.jpg");
+    height: 400px;
+    width: 70%;
+    background-position: center;
+    background-size: cover;
+  }
+  #padres {
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  #cuenta-atras {
+    height: 500px;
+  }
+  #cuenta-atras #countdown {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 50%;
+    height: 30%;
+  }
+  #ceremonia {
+    height: 800px;
+  }
+  #codigo-vestimenta {
+    height: 600px;
+    width: 90%;
+  }
+  #programa {
+    height: 800px;
+  }
+  #programa .event-section img {
+    max-width: 80%;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=styles.css.map */
