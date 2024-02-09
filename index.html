@@ -328,6 +328,43 @@ codigo de vestimenta -->
 
 
 
+
+
+
+<!-- wedding form -->
+
+<form class="wedding-form">
+    <h1 class="text-center">Confirmar asistencia</h1>
+    <p class="text-center">Confirma tu asistencia lo antes posible</p>
+    <label for="reservation-number"><p>Numero de reservación:</p></label>
+    <input type="text" id="reservation-number" name="reservation-number" required>
+    
+    <label for="guest-name"><p>Nombre de invitado</p></label>
+    <input type="text" id="guest-name" name="guest-name" readonly disabled>
+  
+    <label for="attendance"><p>asistencia</p></label>
+    <select id="attendance" name="attendance" required>
+      <option value="asistire"><p>Asistiré</p></option>
+      <option value="no-asistire"><p>No Asistiré</p></option>
+    </select>
+  
+    <label for="ticket-count"><p>Numero de tickets</p></label>
+    <input type="text" id="ticket-count" name="ticket-count" readonly disabled>
+  
+    <label for="message"><p>Felicita a los novios!</p></label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  
+    <button type="submit">Enviar</button>
+  </form>
+  
+
+
+
+
+
+
+
+
     
 </body>
 

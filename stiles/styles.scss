@@ -332,6 +332,7 @@ $button-text-color: white;
 
 
   #cuenta-atras{
+  
     height: 500px;
             #countdown{
                 background-color: rgba(0, 0, 0, 0.7);
@@ -448,16 +449,13 @@ $button-text-color: white;
 
     #programa{
        
-        height: 200vh;
+        height: 180vh;
         padding-top: 20px;
         h1{
             color: black;
         }
 
-        .programa-1{
-         
-            
-        }
+       
 
         .event-section img{
             height: 50px;
@@ -465,6 +463,75 @@ $button-text-color: white;
 
         
     }
+
+
+
+
+
+
+
+
+
+
+    .wedding-form {
+        border: 2px solid #F8F8F8; 
+        padding: 30px; /* Add some padding for content */
+        text-align: center; /* Center text */
+         background-color: #fff; /* White background */
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
+
+        max-width: 400px;
+        margin: 0 auto;
+            
+
+            h1{
+                color:black;
+            }
+
+
+
+       
+       
+      }
+      
+      .wedding-form label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      .wedding-form input[type="text"],
+      .wedding-form select,
+      .wedding-form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .wedding-form textarea {
+        height: 100px;
+      }
+      
+      .wedding-form button {
+        width: 100%;
+        background-color:black;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-size: 20px;
+      }
+      
+      .wedding-form button:hover {
+        background-color: black;
+      }
+
+
+
 
 
    
@@ -628,7 +695,7 @@ $button-text-color: white;
   
   
       #programa{
-          height: 1400px;
+          height: 150vh;
           padding-top: 10px;
   
           .event-section img {
@@ -644,10 +711,72 @@ $button-text-color: white;
 
 
 
+
+
+      .wedding-form {
+        border: 2px solid #F8F8F8; 
+        padding: 30px; /* Add some padding for content */
+        text-align: center; /* Center text */
+         background-color: #fff; /* White background */
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
+
+        max-width: 400px;
+        margin: 0 auto;
+            
+
+            h1{
+                color:black;
+            }
+
+
+
+       
+       
+      }
+      
+      .wedding-form label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      .wedding-form input[type="text"],
+      .wedding-form select,
+      .wedding-form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .wedding-form textarea {
+        height: 100px;
+      }
+      
+      .wedding-form button {
+        background-color: black;
+        font-size: 20px;
+        width: 100%;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .wedding-form button:hover {
+        background-color: black;
+      }
+
+
+
   
   
 
-}
+
+}//end medium
 
 
 
@@ -847,7 +976,80 @@ $button-text-color: white;
         }
 
       
+
+
+
+
+
+
+
+        .wedding-form {
+            border: 2px solid #F8F8F8; 
+            padding: 30px; /* Add some padding for content */
+            text-align: center; /* Center text */
+             background-color: #fff; /* White background */
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
+    
+            max-width: 400px;
+            margin: 0 auto;
+                
+    
+                h1{
+                    color:black;
+                }
+    
+    
+    
+           
+           
+          }
+          
+          .wedding-form label {
+            display: block;
+            margin-bottom: 5px;
+          }
+          
+          .wedding-form input[type="text"],
+          .wedding-form select,
+          .wedding-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+          }
+          
+          .wedding-form textarea {
+            height: 100px;
+          }
+          
+          .wedding-form button {
+            background-color: black;
+            font-size: 20px;
+            width: 100%;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+          
+          .wedding-form button:hover {
+            background-color: black;
+          }
+    
+    
+
+
+
+
+
+
+
+
     
   
-  }//end
+  }//end larger
 
