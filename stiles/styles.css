@@ -197,7 +197,10 @@ p {
   #section2 h1 {
     color: black;
     font-size: 26px;
-    font-weight: 100;
+    font-weight: 200;
+  }
+  #section2 h2 {
+    font-size: 21px;
   }
   #section2 img {
     padding: 10px;
@@ -288,7 +291,7 @@ p {
     border: none;
     margin-top: 0;
     padding-top: 0;
-    height: 100vh;
+    height: 80vh;
     background-image: url("/img/section_4.jpg");
     background-size: cover;
   }
