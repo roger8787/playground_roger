@@ -54,7 +54,7 @@ p {
   justify-content: center;
 }
 #section2 .foto {
-  background-image: url("../img/boda_1.jpg");
+  background-image: url("../img/background-ely.jpeg");
   height: 300px;
   width: 90%;
   background-position: center;
@@ -63,7 +63,7 @@ p {
 
 #padres {
   height: 80vh;
-  background-image: url("../img/background11.png");
+  background-image: url("../img/background-verde.jpg");
   background-color: black;
   background-position: center;
   background-size: cover;
@@ -76,7 +76,7 @@ p {
 
 #cuenta-atras {
   height: 50vh;
-  background-image: url("../img/imagen2.jpg");
+  background-image: url("../img/ely_cumple.jpeg");
   background-position: top;
   background-size: cover;
   display: flex;
@@ -103,7 +103,6 @@ p {
   text-align: center;
   font-family: "Dancing Script", cursive;
   padding: 50px;
-  border-radius: 10px;
   margin-top: 20px; /* Add margin for spacing */
 }
 
@@ -192,7 +191,13 @@ p {
     font-size: 40px;
   }
   #section2 {
+    background-color: #F2EFE5;
     height: 800px;
+  }
+  #section2 h1 {
+    color: black;
+    font-size: 26px;
+    font-weight: 100;
   }
   #section2 img {
     padding: 10px;
@@ -203,6 +208,13 @@ p {
     background-repeat: no-repeat;
     background-position: top;
     background-color: blue;
+    color: black;
+  }
+  #padres h2 {
+    font-size: 40px;
+  }
+  #padres p {
+    font-size: 20px;
     color: black;
   }
   #cuenta-atras {
@@ -217,42 +229,55 @@ p {
   }
   #ceremonia {
     height: 600px;
+    background-color: #F2EFE5;
+    line-height: 0.9;
   }
   #ceremonia h1 {
     color: black;
     font-size: 30px;
     padding-bottom: 10px;
   }
-  #carouselExampleFade {
-    height: 250px;
-    border: 2px black;
-  }
-  #carouselExampleFade button {
-    color: black;
-  }
-  #carouselExampleFade .padrinos {
-    height: 250px;
-    background-color: #fff;
-    border: 2px solid #e0e0e0;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  #carouselExampleFade .padrinos h1 {
-    color: black;
-    font-size: 30px;
-  }
   #padrinos {
+    padding-top: 10px;
     margin-bottom: 0;
-    height: 80vh;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   #padrinos h1 {
     color: black;
   }
   #padrinos .carousel {
+    line-height: 0.5;
     height: 300px;
     display: flex;
     align-items: center;
-    border: 4px solid #f7ede2;
+    border: 4px solid #F2EFE5;
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Add some padding for content */
+    text-align: center; /* Center text */
+    background-color: #fff; /* White background */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  #damas-honor {
+    margin-bottom: 0;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    justify-content: center;
+  }
+  #damas-honor h1 {
+    color: black;
+  }
+  #damas-honor .carousel {
+    line-height: 0.5;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border: 4px solid #F2EFE5;
     border-radius: 15px; /* Rounded corners */
     padding: 20px; /* Add some padding for content */
     text-align: center; /* Center text */
@@ -276,7 +301,8 @@ p {
     justify-content: space-between;
   }
   #programa {
-    height: 180vh;
+    background-color: #F2EFE5;
+    height: 110vh;
     padding-top: 20px;
   }
   #programa h1 {
@@ -285,14 +311,17 @@ p {
   #programa .event-section img {
     height: 50px;
   }
+  #wedding {
+    padding: 20px;
+  }
   .wedding-form {
+    margin: auto;
     border: 2px solid #F8F8F8;
     padding: 30px; /* Add some padding for content */
     text-align: center; /* Center text */
     background-color: #fff; /* White background */
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    margin: 0 auto;
   }
   .wedding-form h1 {
     color: black;
@@ -327,6 +356,26 @@ p {
   }
   .wedding-form button:hover {
     background-color: black;
+  }
+  #mesa-regalos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #mesa-regalos h1 {
+    color: black;
+  }
+  #mesa-regalos .card-mesa {
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #F2EFE5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
   }
 }
 /* Media query for medium screens (577px to 768px) */
