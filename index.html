@@ -41,17 +41,48 @@
     
 
 
-<div class="container-fluid d-flex flex-column align-items-center justify-content-center" id="section2">
-    <div class="col-sm-12 col-md-6 mb-3 p-3 text-center">
-        <h1>¡Nos casamos!</h1>
-        <p>Cada familia tiene una historia, bienvenidos a la nuestra.</p>
-        
-    </div>
-    <div class="row justify-content-center w-100">
-        <div class="col-md-4  mx-2 p-3 text-center foto">
+<div class="container-fluid " id="section2">
+
+    <div class="row">
+
+
+
+       <!-- audio -->
+       <audio src="/audio/audio.mp3" id="audio" loop></audio>
+       <button onclick="togglePlay()">Play/pause</button>
+
+
+
+       <script>
+        var audio = document.getElementById('audio');
+        function togglePlay(){
+            if(audio.paused){
+                audio.play();
+            }else{
+                audio.pause();
+            }
+        }
+       </script>
+
+
+
+
+
+
+
+        <div class="text-center">
+            <h1>¡Nos casamos!</h1>
+            <p>Cada familia tiene una historia, bienvenidos a la nuestra.</p>
             
         </div>
-        <div class="col-md-4  mx-2 p-3 text-center">
+
+    </div>
+  
+    <div class="row text-center">
+        <div class="text-center foto">
+            
+        </div>
+        <div class="  mx-2 p-3 text-center">
             <h1>El que haya esposa haya el bien y alcanza el favor del señor</h1>
             
             <h2>Proverbios 18:22</h2>
@@ -70,12 +101,12 @@
     </div>
     <div class="row justify-content-center w-100">
         <div class="col-md-4  mx-2 p-3 text-center">
-            <h2>Padres del novio</h2>
+            <h1>Padres del novio</h1>
             <p>Jorge Gómez Perez</p>
             <p>Eva Cruz Mendez</p>
         </div>
         <div class="col-md-4  mx-2 p-3 text-center ">
-            <h2>Padres de la novia</h2>
+            <h1>Padres de la novia</h1>
             <p>Eduardo Aguilar Molina</p>
             <p>Martha Muñoz López</p>
         </div>
@@ -116,7 +147,7 @@
 
 
 
-<div class="container d-flex justify-content-center align-items-center " id="ceremonia">
+<div class="container-fluid d-flex justify-content-center align-items-center " id="ceremonia">
     <div class="row">
 
           
@@ -261,19 +292,32 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="padrinos d-flex flex-column align-items-center justify-content-center " >
+
+                <div class="row">
+                    <h1 class="text-center">Damas</h1> 
+                    <div class="col-md-6 col-sm-12">
+                        <p class="text-center">Erika Aguilar </p>
+                        <p class="text-center">Liliana Aguilar</p>
+                        <p class="text-center">Brenda Gomez</p>
+                        <p class="text-center">Damaris Gómez</p>
+                        <p class="text-center">Sarahi Aguilar</p>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <p class="text-center">Alejandra Aguilar</p>
+                        <p class="text-center">Mahanaim Díaz</p>
+                        <p class="text-center">Daromi Robles</p>
+                        <p class="text-center">Dariana Vazquez</p>
+                        <p class="text-center">Mariana Jimenez</p>
+
+                    </div>
+                </div>
                
-                <h1 class="text-center">Damas</h1>  
-                <hr style="background-color: black;">             
-                <p class="text-center">Erika Aguilar </p>
-                <p class="text-center">Liliana Aguilar</p>
-                <p class="text-center">Brenda Gomez</p>
-                <p class="text-center">Damaris Gómez</p>
-                <p class="text-center">Sarahi Aguilar</p>
-                <p class="text-center">Alejandra Aguilar</p>
-                <p class="text-center">Mahanaim Díaz</p>
-                <p class="text-center">Daromi Robles</p>
-                <p class="text-center">Dariana Vazquez</p>
-                <p class="text-center">Mariana Jimenez</p>
+                
+                  
+               
+               
 
               
             </div>
@@ -286,16 +330,32 @@
             <div class="padrinos d-flex flex-column align-items-center justify-content-center " >
                
                 <h1 class="text-center">Acompañantes</h1>  
-                <hr style="background-color: black;">             
-                <p class="text-center">Victor Arellano </p>
-                <p class="text-center">Carlos Camacho</p>
-                <p class="text-center">Gustavo Gómez</p>
-                <p class="text-center">Jorge Gómez</p>
-                <p class="text-center">Ulises Ochoa</p>
-                <p class="text-center">David Robles</p>
-                <p class="text-center">Ricardo Díaz</p>
-                <p class="text-center">Julio Hernandez</p>
-                <p class="text-center">Samuel Aguilar</p>
+               
+                
+
+                    <div class="row w-100">
+                        <div class="col-md-6 col-sm-12" >
+                            <p class="text-center">Carlos Camacho</p>
+                            <p class="text-center">Victor Arellano </p>
+                            
+                            <p class="text-center">Gustavo Gómez</p>
+                            <p class="text-center">Jorge Gómez</p>
+                           
+                        </div>
+
+                        <div class="col-md-6 col-sm-12">
+                            <p class="text-center">David Robles</p>
+                            <p class="text-center">Ricardo Díaz</p>
+                            <p class="text-center">Julio Hernandez</p>
+                            <p class="text-center">Samuel Aguilar</p>
+                            <p class="text-center">Ulises Ochoa</p>
+                         
+                            
+                        </div>
+                    </div>
+
+                
+                
               
                   
               
