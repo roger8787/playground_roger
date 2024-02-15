@@ -195,7 +195,23 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 800px;
+  }
+  #section2 button {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    font-size: 20px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
   #section2 h1 {
     color: black;
@@ -205,8 +221,8 @@ p {
   #section2 h2 {
     font-size: 21px;
   }
-  #section2 img {
-    padding: 10px;
+  #section2 .foto {
+    margin: auto;
   }
   #padres {
     height: 750px;
@@ -232,7 +248,7 @@ p {
   #cuenta-atras #countdown {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
-    width: 80%;
+    width: 90%;
     height: 130px;
     border-radius: none;
   }
@@ -245,6 +261,10 @@ p {
     color: black;
     font-size: 30px;
     padding-bottom: 10px;
+    line-height: 1;
+  }
+  #ceremonia p {
+    line-height: 1.6;
   }
   #padrinos {
     padding-top: 10px;
@@ -297,9 +317,14 @@ p {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
   }
   #codigo-vestimenta {
+    background-color: blue;
     border: none;
     margin-top: 0;
     padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 80vh;
     background-image: url("/img/section_4.jpg");
     background-size: cover;
@@ -372,6 +397,7 @@ p {
   #mesa-regalos {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #F2EFE5;
   }
   #mesa-regalos h1 {
     color: black;
@@ -388,6 +414,9 @@ p {
     align-items: center;
     justify-content: center;
     line-height: 1;
+  }
+  #mesa-regalos .card-mesa p {
+    line-height: 0.5;
   }
 }
 @media (min-width: 577px) and (max-width: 768px) {
