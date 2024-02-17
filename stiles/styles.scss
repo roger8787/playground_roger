@@ -1,7 +1,8 @@
 
 $primary-color:#FFF6E9;
 // $beige-oscuro: #E3E1D9;
-$beige-oscuro:#F2EFE5;
+// $beige-oscuro:#F2EFE5;
+$beige-oscuro:#FDF7E4;
 $verde: #E1F0DA;
 $oro: #cca352;
 $letra-beige: #EBD9B4;
@@ -525,7 +526,8 @@ color: black;
 
 
     #codigo-vestimenta{
-        background-color: blue;
+        border: 10px solid #000;
+        
         border: none;
         margin-top: 0;
         padding-top: 0;
