@@ -709,9 +709,17 @@ color: black;
 
 //medium
 
-
+//https://theme.co/forum/t/fix-for-parallax-issue-on-ipads/17540
 //   /* Media query for medium screens (577px to 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
+    .x-section.bg-image.parallax, .x-section.bg-pattern.parallax {
+        background-attachment:scroll !important;
+           background-size: cover;
+           height: 100%;
+           overflow: hidden;
+         
+       }
+
     body {
         font-size: 25px;
       }
@@ -1158,6 +1166,18 @@ color: black;
 
   /* Media query for large screens (769px and above) */
 @media (min-width: 769px) {
+
+
+    .x-section.bg-image.parallax, .x-section.bg-pattern.parallax {
+        background-attachment:scroll !important;
+           background-size: cover;
+           height: 100%;
+           overflow: hidden;
+         
+       }
+
+
+
     body {
         font-size: 25px;
       }

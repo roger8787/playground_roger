@@ -438,6 +438,12 @@ p {
   }
 }
 @media (min-width: 577px) and (max-width: 768px) {
+  .x-section.bg-image.parallax, .x-section.bg-pattern.parallax {
+    background-attachment: scroll !important;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
   body {
     font-size: 25px;
   }
@@ -721,6 +727,12 @@ p {
 }
 /* Media query for large screens (769px and above) */
 @media (min-width: 769px) {
+  .x-section.bg-image.parallax, .x-section.bg-pattern.parallax {
+    background-attachment: scroll !important;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
   body {
     font-size: 25px;
   }
