@@ -45,8 +45,10 @@ p{
     background-color: black;
     background-image: url('../img/section_1.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    
     background-repeat: no-repeat;
+    
    
     display: flex;
     align-items: center;
