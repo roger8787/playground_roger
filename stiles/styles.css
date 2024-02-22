@@ -62,6 +62,13 @@ p {
 }
 #section2 .foto {
   background-image: url("../img/background-ely.jpeg");
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  top: 0;
+
+
+  
   height: 300px;
   width: 90%;
   background-position: center;
