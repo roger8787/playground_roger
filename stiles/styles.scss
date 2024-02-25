@@ -43,9 +43,9 @@ p{
     height: 80vh;
     width: 100%;
     background-color: black;
-    background-image: url('../img/section_1.jpg');
+    background-image: url('../img/anillo_ely.jpeg');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     
     background-repeat: no-repeat;
     
@@ -54,7 +54,7 @@ p{
     align-items: center;
     justify-content: center;
     color: white;
-    background-attachment: fixed;
+   
 
     p{
         color: white;
@@ -98,10 +98,18 @@ p{
 }
 
 
+.carousel-control-prev-icon, 
+.carousel-control-next-icon  {
+background-color: $beige-oscuro;
+height: 30px;
+width: 30px;
+
+}
+
 #padres{
     
     height: 80vh;
-    background-image: url('../img/background-verde.jpg');
+    background-image: url('../img/section_4.jpg');
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -114,7 +122,7 @@ p{
     align-items: center;
     justify-content: center;
    
-    background-attachment: fixed;
+  
    
     
 }
@@ -124,7 +132,7 @@ p{
 #cuenta-atras{
     height: 50vh;
 
-    background-image: url('../img/ely_cumple.jpeg');
+    background-image: url('../img/image4.jpg');
     
     background-position: top;
     background-size: cover;
@@ -133,7 +141,7 @@ p{
     align-items: center;
     justify-content: center;
     color: white;
-    background-attachment: fixed;
+  
 
     h2{
         font-size: 20px;
@@ -183,7 +191,7 @@ p{
     align-items: center;
     justify-content: center;
   
-    background-attachment: fixed;
+  
 
     h1{
         font-size: 18px;
@@ -227,7 +235,7 @@ $button-text-color: white;
     align-items: center;
     justify-content: center;
    
-    background-attachment: fixed;
+   
 
     .dressContainer{
         
@@ -392,7 +400,7 @@ color: black;
   #cuenta-atras{
   
     height: 500px;
-    background-image: url('/img/ely_cumple.jpeg');
+    
     background-size: cover;
     background-repeat: no-repeat;
             #countdown{
@@ -459,6 +467,8 @@ color: black;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
 
         }
+
+    
 
       
     }
@@ -868,7 +878,7 @@ color: black;
   
   
     #cuenta-atras{
-    background-image: url('/img/ely_cumple.jpeg');
+  
     background-size: contain;
     
       height: 500px;
@@ -1326,7 +1336,7 @@ color: black;
   
   
     #cuenta-atras{
-        background-image: url('../img/ely_cumple.jpeg');
+        
     
         background-position: top;
         background-size: contain;
@@ -1514,7 +1524,7 @@ color: black;
           padding: 20px;
 
           background-image: url('/img/background11.png');
-          background-attachment: fixed;
+     
           
       }
   
