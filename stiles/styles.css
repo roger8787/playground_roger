@@ -62,14 +62,14 @@ p {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #E3E1D9;
+  background-color: #CCD3CA;
   height: 30px;
   width: 30px;
 }
 
 #padres {
   height: 80vh;
-  background-image: url("../img/section_4.jpg");
+  background-image: url("../img/background_20.jpg");
   background-color: black;
   background-position: center;
   background-size: cover;
@@ -81,8 +81,8 @@ p {
 
 #cuenta-atras {
   height: 50vh;
-  background-image: url("../img/image4.jpg");
-  background-position: top;
+  background-image: url("../img/ely-roger.jpeg");
+  background-position: bottom;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -193,7 +193,7 @@ p {
     font-size: 40px;
   }
   #section2 {
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -258,7 +258,7 @@ p {
   }
   #ceremonia {
     height: 600px;
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     line-height: 0.9;
   }
   #ceremonia h1 {
@@ -288,7 +288,7 @@ p {
     max-height: 350;
     display: flex;
     align-items: center;
-    border: 4px solid #E3E1D9;
+    border: 4px solid #CCD3CA;
     border-radius: 15px; /* Rounded corners */
     padding: 20px; /* Add some padding for content */
     text-align: center; /* Center text */
@@ -328,7 +328,7 @@ p {
     height: 450px;
     display: flex;
     align-items: center;
-    border: 4px solid #E3E1D9;
+    border: 4px solid #CCD3CA;
     border-radius: 15px; /* Rounded corners */
     padding: 20px; /* Add some padding for content */
     text-align: center; /* Center text */
@@ -357,7 +357,7 @@ p {
     justify-content: space-between;
   }
   #programa {
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     height: 1000px;
     padding-top: 20px;
   }
@@ -416,7 +416,7 @@ p {
   #mesa-regalos {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
   }
   #mesa-regalos h1 {
     color: black;
@@ -424,7 +424,7 @@ p {
   #mesa-regalos .card-mesa {
     padding: 4px;
     border-radius: 10px;
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     height: 200px;
@@ -491,7 +491,7 @@ p {
     font-size: 40px;
   }
   #section2 {
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -555,7 +555,7 @@ p {
   }
   #ceremonia {
     height: 600px;
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     line-height: 0.9;
   }
   #ceremonia h1 {
@@ -585,7 +585,7 @@ p {
     max-height: 350;
     display: flex;
     align-items: center;
-    border: 4px solid #E3E1D9;
+    border: 4px solid #CCD3CA;
     border-radius: 15px; /* Rounded corners */
     padding: 20px; /* Add some padding for content */
     text-align: center; /* Center text */
@@ -610,7 +610,7 @@ p {
     height: 300px;
     display: flex;
     align-items: center;
-    border: 4px solid #E3E1D9;
+    border: 4px solid #CCD3CA;
     border-radius: 15px; /* Rounded corners */
     padding: 20px; /* Add some padding for content */
     text-align: center; /* Center text */
@@ -639,7 +639,7 @@ p {
     justify-content: space-between;
   }
   #programa {
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     height: 500px;
     padding-top: 20px;
   }
@@ -698,7 +698,7 @@ p {
   #mesa-regalos {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -710,7 +710,7 @@ p {
   #mesa-regalos .card-mesa {
     padding: 4px;
     border-radius: 10px;
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     height: 200px;
@@ -779,7 +779,7 @@ p {
     font-size: 40px;
   }
   #section2 {
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -845,7 +845,7 @@ p {
   }
   #ceremonia {
     height: 600px;
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     line-height: 0.9;
   }
   #ceremonia h1 {
@@ -875,7 +875,7 @@ p {
     max-height: 350;
     display: flex;
     align-items: center;
-    border: 4px solid #E3E1D9;
+    border: 4px solid #CCD3CA;
     border-radius: 15px; /* Rounded corners */
     padding: 20px; /* Add some padding for content */
     text-align: center; /* Center text */
@@ -900,7 +900,7 @@ p {
     height: 300px;
     display: flex;
     align-items: center;
-    border: 4px solid #E3E1D9;
+    border: 4px solid #CCD3CA;
     border-radius: 15px; /* Rounded corners */
     padding: 20px; /* Add some padding for content */
     text-align: center; /* Center text */
@@ -929,7 +929,7 @@ p {
     justify-content: space-between;
   }
   #programa {
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     height: 500px;
     padding-top: 20px;
   }
@@ -989,7 +989,7 @@ p {
   #mesa-regalos {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -1001,7 +1001,7 @@ p {
   #mesa-regalos .card-mesa {
     padding: 4px;
     border-radius: 10px;
-    background-color: #E3E1D9;
+    background-color: #CCD3CA;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     height: 200px;
