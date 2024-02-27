@@ -1,3 +1,5 @@
+@import '../styles.scss';
+
 //small devices
 
 
@@ -26,6 +28,7 @@
     #section1{
        
         height:100vh;
+        // background-image: url(/img/anillo_ely.jpeg);
         
 
         .principal{
@@ -34,6 +37,8 @@
             text-align: center;
         
             font-family: 'Dancing Script', cursive;
+           
+          
             
 
           
@@ -85,6 +90,10 @@
         align-items: center;
         justify-content: center;
 
+        .foto{
+            height: 300px;
+        }
+
 
         button{
             margin-bottom: 10px;
@@ -124,8 +133,15 @@
     }
 
 
+    hr{
+        background-color: white;
+        color: white;
+    }
+
+
     #padres{
         height: 750px;
+        background-image: url(/img/background_20.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -148,9 +164,11 @@ color: black;
 
 
   #cuenta-atras{
+    background-image: url('../../img/ely_cumple.jpeg');
   
     height: 500px;
             #countdown{
+        
                 background-color: rgba(0, 0, 0, 0.7);
                 padding: 20px;
                 width: 90%;
